@@ -11,7 +11,7 @@ public class Main {
         } else {
             bonus = 0;
         }
-        balance = clientAcc + bonus;
+        balance = clientAcc + bonus + addedSumm;
 
         System.out.println("Ваш баланс с учетом бонусов " + (balance));
 
